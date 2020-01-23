@@ -16,6 +16,14 @@ public class MyLinkedList<E> implements LinkedListADT<E> {
             this.data = data;
             this.next = next;
         }
+
+        private E getData() {
+            return data;
+        }
+
+        private Node<E> getNext() {
+            return next;
+        }
     }
 
     @Override
